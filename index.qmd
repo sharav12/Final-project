@@ -6,8 +6,8 @@ output:
     fig_width: 100  # Adjust the width of the plot (in inches)
     fig_height: 6  # Adjust the height of the plot (in inches)
 ---
-
-## Global food price inflation varies globally. the following data was pulled from kaggle. The inflation column was plotted against the date column using multiple lines to represent different countries in order to make an intuitive graph. looking at the inflation rates, we can see that global inflation on food prices has spiked in the last 5 years.
+Global food price inflation varies globally. the following data was pulled from kaggle. The inflation column was plotted against the date column using multiple lines to represent different countries in order to make an intuitive graph. looking at the inflation rates, we can see that global inflation on food prices has spiked in the last 5 years.
+---
 
 ```{r}
 #| message: false
