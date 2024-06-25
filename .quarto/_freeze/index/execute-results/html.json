@@ -1,8 +1,8 @@
 {
-  "hash": "1749fa43d3d073b48cf9c3b30b437a7e",
+  "hash": "a4da575bfe2b95dd8510f1e5c2cf218f",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"Final project\"\nauthor: \"Sharav Joshi\"\noutput:\n  quarto::quarto_html_document:\n    fig_width: 100  # Adjust the width of the plot (in inches)\n    fig_height: 6  # Adjust the height of the plot (in inches)\n---\n\n\n\n\n\nGlobal food price inflation varies globally. the following data was pulled from kaggle. The inflation column was plotted against the date column using multiple lines to represent different countries in order to make an intuitive graph. looking at the inflation rates, global inflation on food prices has spiked in the last 5 years. \n\n---\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n\n\nthis shows how food prices have increased over the last decade or so\n",
+    "markdown": "---\ntitle: \"Final project\"\nauthor: \"Sharav Joshi\"\noutput:\n  quarto::quarto_html_document:\n    fig_width: 100  # Adjust the width of the plot (in inches)\n    fig_height: 6  # Adjust the height of the plot (in inches)\n---\n\n\n\nGlobal food price inflation varies globally. the following data was pulled from kaggle. The inflation column was plotted against the date column using multiple lines to represent different countries in order to make an intuitive graph. looking at the inflation rates, we can see that global inflation on food prices has spiked in the last 5 years.\n\n---\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-1-1.png){width=672}\n:::\n:::\n\n\n\nthis shows how food prices have increased over the last decade or so\n",
     "supporting": [
       "index_files"
     ],

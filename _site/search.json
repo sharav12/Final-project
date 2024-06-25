@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "sources.html",
+    "href": "sources.html",
+    "title": "sources",
+    "section": "",
+    "text": "i sourced my data from kaggle ("
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Final project",
@@ -11,6 +18,13 @@
     "href": "index.html",
     "title": "Final project",
     "section": "",
-    "text": "Global food price inflation varies globally. the following data was pulled from kaggle. The inflation column was plotted against the date column using multiple lines to represent different countries in order to make an intuitive graph. looking at the inflation rates, global inflation on food prices has spiked in the last 5 years.\n\n\n\n\n\n\n\n\n\n\nthis shows how food prices have increased over the last decade or so"
+    "text": "Global food price inflation varies globally. the following data was pulled from kaggle. The inflation column was plotted against the date column using multiple lines to represent different countries in order to make an intuitive graph. looking at the inflation rates, we can see that global inflation on food prices has spiked in the last 5 years.\n\n\n\n\n\n\n\n\n\n\nthis shows how food prices have increased over the last decade or so"
+  },
+  {
+    "objectID": "index.html#global-food-price-inflation-varies-globally.-the-following-data-was-pulled-from-kaggle.-the-inflation-column-was-plotted-against-the-date-column-using-multiple-lines-to-represent-different-countries-in-order-to-make-an-intuitive-graph.-looking-at-the-inflation-rates-we-can-see-that-global-inflation-on-food-prices-has-spiked-in-the-last-5-years.",
+    "href": "index.html#global-food-price-inflation-varies-globally.-the-following-data-was-pulled-from-kaggle.-the-inflation-column-was-plotted-against-the-date-column-using-multiple-lines-to-represent-different-countries-in-order-to-make-an-intuitive-graph.-looking-at-the-inflation-rates-we-can-see-that-global-inflation-on-food-prices-has-spiked-in-the-last-5-years.",
+    "title": "Final project",
+    "section": "",
+    "text": "this shows how food prices have increased over the last decade or so"
   }
 ]
