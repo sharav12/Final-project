@@ -1,0 +1,7 @@
+My name is Sharav Joshi. I'm a high schooler in Lexington, MA, and I have a passion for data science.
+
+email: sharav4joshi\@gmail.com
+
+Github Repo: <https://github.com/sharav12/Final-project.git>
+
+course homepage: <https://bootcamp.davidkane.info>

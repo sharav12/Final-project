@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Final project",
+    "section": "",
+    "text": "My name is Sharav Joshi. I’m a high schooler in Lexington, MA, and I have a passion for data science.\nemail: sharav4joshi@gmail.com\nGithub Repo: https://github.com/sharav12/Final-project.git\ncourse homepage: https://bootcamp.davidkane.info"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Final project",
+    "section": "",
+    "text": "Global food price inflation varies globally. the following data was pulled from kaggle. The inflation column was plotted against the date column using multiple lines to represent different countries in order to make an intuitive graph. looking at the inflation rates, global inflation on food prices has spiked in the last 5 years.\n\n\n\n\n\n\n\n\n\n\nthis shows how food prices have increased over the last decade or so"
+  }
+]

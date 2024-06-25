@@ -1,0 +1,43 @@
+---
+title: "Final project"
+author: "Sharav Joshi"
+output:
+  quarto::quarto_html_document:
+    fig_width: 100  # Adjust the width of the plot (in inches)
+    fig_height: 6  # Adjust the height of the plot (in inches)
+---
+
+## Global food price inflation varies globally. the following data was pulled from kaggle. The inflation column was plotted against the date column using multiple lines to represent different countries in order to make an intuitive graph. looking at the inflation rates, we can see that global inflation on food prices has spiked in the last 5 years.
+
+```{r}
+#| message: false
+#| echo: false
+
+library(readr)
+library(dplyr)
+library(ggplot2)
+
+dataset_path <- "WLD_RTFP_country_2023-10-02 (2).csv"
+food_prices <- read_csv(dataset_path)
+
+
+# Display the structure of the dataset
+
+food_prices_inflation <- food_prices %>%
+  select(date, Inflation, country) %>%
+  filter(!is.na(Inflation))  # Remove rows with NA values in Inflation
+
+
+# Plotting global inflation on food prices
+ggplot(food_prices_inflation, aes(x = date, y = Inflation, group = country, color = country)) +
+  geom_line(linewidth= 0.6) +  # Increase line thickness
+  scale_x_date(date_breaks = "2 years", date_labels = "%Y") +  # Adjust x-axis date breaks and labels
+  labs(title = "Global Inflation on Food Prices",
+       x = "Date",
+       y = "Inflation on Food Prices (%)",
+       color = "Country") +
+  theme_minimal() +
+  theme(legend.position = "right")  # Adjust legend position if needed
+```
+
+this shows how food prices have increased over the last decade or so
